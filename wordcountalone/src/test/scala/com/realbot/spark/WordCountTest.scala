@@ -1,5 +1,7 @@
+package com.realbot.spark
+
+import org.apache.log4j.{Level, Logger}
 import org.specs2.mutable._
-import org.apache.log4j.{Logger, Level}
 
 class WordCountTest extends Specification {
 

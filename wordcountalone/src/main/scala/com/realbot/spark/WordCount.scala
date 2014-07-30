@@ -1,6 +1,7 @@
-import org.apache.spark.SparkContext
+package com.realbot.spark
+
+import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
 
 class WordCount(filename: String, master: String) {
   private val conf = new SparkConf().setAppName("Word Count Application").setMaster(master)
