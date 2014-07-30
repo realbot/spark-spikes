@@ -1,0 +1,11 @@
+target/
+lib_managed/
+src_managed/
+project/boot/
+out/
+.idea/
+*.iml
+AwsCredentials.properties
+*.log
+dist/
+.DS_Store
