@@ -42,6 +42,7 @@ object NetworkWordCount {
     }
 
     //StreamingExamples.setStreamingLogLevels()
+
     val updateFunc = (values: Seq[Int], state: Option[Int]) => {
       val currentCount = values.foldLeft(0)(_ + _)
 
