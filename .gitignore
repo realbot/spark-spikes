@@ -9,3 +9,4 @@ AwsCredentials.properties
 *.log
 dist/
 .DS_Store
+*.crc
